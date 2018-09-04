@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp2", "WpfApp2\WpfApp2.csproj", "{78E9968C-4266-46DF-81D0-3DE07167348F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorEditor", "ColorEditor\ColorEditor.csproj", "{06089EF6-71D8-47CC-9780-625DA798C25D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78E9968C-4266-46DF-81D0-3DE07167348F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78E9968C-4266-46DF-81D0-3DE07167348F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78E9968C-4266-46DF-81D0-3DE07167348F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78E9968C-4266-46DF-81D0-3DE07167348F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06089EF6-71D8-47CC-9780-625DA798C25D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06089EF6-71D8-47CC-9780-625DA798C25D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06089EF6-71D8-47CC-9780-625DA798C25D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06089EF6-71D8-47CC-9780-625DA798C25D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8D047AB-D010-4EB5-89AC-BE00AFB2F6DC}
+	EndGlobalSection
+EndGlobal

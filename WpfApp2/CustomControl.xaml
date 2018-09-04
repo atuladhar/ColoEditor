@@ -1,0 +1,105 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp2"
+             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation" x:Class="WpfApp2.CustomControl"
+             mc:Ignorable="d"
+             d:DesignHeight="743" d:DesignWidth="1298">
+    <Grid>
+        <StackPanel Grid.Column="1" Orientation="Vertical">
+            <telerik:RadTabControl Grid.Row="1" VerticalAlignment="Top"
+				DisplayMemberPath="Content" DropDownDisplayMode="WhenNeeded" ScrollMode="Viewport" BorderThickness="0">
+                <telerik:RadTabItem DropDownContent="For Screen" Header="For Screen" >
+                    <telerik:RadTabItem.Content>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1022"/>
+                                <ColumnDefinition Width="276"/>
+                            </Grid.ColumnDefinitions>
+
+                            <StackPanel Grid.Column="1" Orientation="Vertical">
+                                <Rectangle Fill="#433A3B" Height="155" Stroke="#808080"/>
+                                <StackPanel Orientation = "Horizontal">
+                                    <Rectangle Fill="#FFFFFF" Height="138" Width="138" Stroke="#808080"/>
+                                    <Rectangle Fill="#433A3B" Height="58" Width="58" HorizontalAlignment="Left" Margin="-98,0,0,0"/>
+                                    <Rectangle Fill="#D3D3D3" Height="138" Width="138" HorizontalAlignment="Right"/>
+                                    <Rectangle Fill="#433A3B" Height="58" Width="58" HorizontalAlignment="Left" Margin="-98,0,0,0"/>
+                                </StackPanel>
+                                <StackPanel Orientation = "Horizontal">
+                                    <Rectangle Fill="#A9A9A9" Height="138" Width="138" Stroke="#808080"/>
+                                    <Rectangle Fill="#433A3B" Height="58" Width="58" HorizontalAlignment="Left" Margin="-98,0,0,0"/>
+                                    <Rectangle Fill="#000000" Height="138" Width="138" HorizontalAlignment="Right"/>
+                                    <Rectangle Fill="#433A3B" Height="58" Width="58" HorizontalAlignment="Left" Margin="-98,0,0,0"/>
+                                </StackPanel>
+                                <Image x:Name="texturedswatch" Width="276" Height="276" Source="/Images/AJ 02 (Visualization) 276.jpg" />
+                            </StackPanel>
+                            <StackPanel Grid.Column="0" Background="#F0F0F0" Orientation="Vertical">
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0 16 16 0">
+                                    <Button Margin="0 0 16 0" Width="44" Height="44">
+                                        <Image Width="20" Source="/Images/Undo Icon.png"/>
+                                        <Button.ToolTip>Undo</Button.ToolTip>
+                                    </Button>
+                                    <Button Width="44" Height="44">
+                                        <Image Width="20" Source="/Images/Eyedropper Icon.png"/>
+                                        <Button.ToolTip>Advanced Edit</Button.ToolTip>
+                                    </Button>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 12 0 0"/>
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                    <StackPanel Orientation="Vertical"/>
+                                </StackPanel>
+                            </StackPanel>
+                        </Grid>
+                    </telerik:RadTabItem.Content>
+                </telerik:RadTabItem>
+                <telerik:RadTabItem DropDownContent="For Print" Header="For Print" HorizontalAlignment="Center">
+                    <telerik:RadTabItem.Content>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1022"/>
+                                <ColumnDefinition Width="276"/>
+                            </Grid.ColumnDefinitions>
+
+                            <StackPanel Grid.Column="1" Orientation="Vertical">
+                                <Rectangle Fill="#433A3B" Height="155" Stroke="#808080"/>
+                                <StackPanel Orientation = "Horizontal">
+                                    <Rectangle Fill="#FFFFFF" Height="138" Width="138" Stroke="#808080"/>
+                                    <Rectangle Fill="#433A3B" Height="58" Width="58" HorizontalAlignment="Left" Margin="-98,0,0,0"/>
+                                    <Rectangle Fill="#D3D3D3" Height="138" Width="138" HorizontalAlignment="Right"/>
+                                    <Rectangle Fill="#433A3B" Height="58" Width="58" HorizontalAlignment="Left" Margin="-98,0,0,0"/>
+                                </StackPanel>
+                                <StackPanel Orientation = "Horizontal">
+                                    <Rectangle Fill="#A9A9A9" Height="138" Width="138" Stroke="#808080"/>
+                                    <Rectangle Fill="#433A3B" Height="58" Width="58" HorizontalAlignment="Left" Margin="-98,0,0,0"/>
+                                    <Rectangle Fill="#000000" Height="138" Width="138" HorizontalAlignment="Right"/>
+                                    <Rectangle Fill="#433A3B" Height="58" Width="58" HorizontalAlignment="Left" Margin="-98,0,0,0"/>
+                                </StackPanel>
+                                <Image x:Name="texturedswatch1" Width="276" Height="276" Source="/Images/AJ 02 (Visualization) 276.jpg" />
+                            </StackPanel>
+                            <StackPanel Grid.Column="0" Background="#F0F0F0" Orientation="Vertical">
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0 16 16 0">
+                                    <Button Margin="0 0 16 0" Width="44" Height="44">
+                                        <Image Width="20" Source="/Images/Undo Icon.png"/>
+                                        <Button.ToolTip>Undo</Button.ToolTip>
+                                    </Button>
+                                    <Button Width="44" Height="44">
+                                        <Image Width="20" Source="/Images/Eyedropper Icon.png"/>
+                                        <Button.ToolTip>Advanced Edit</Button.ToolTip>
+                                    </Button>
+                                </StackPanel>
+                                <Image x:Name="variationsamples1" Width="880" Height="445" Source="/Images/Variation samples.png" HorizontalAlignment="Center" Margin="0 0 0 0"/>
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 12 0 0"/>
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                    <StackPanel Orientation="Vertical"/>
+                                </StackPanel>
+                            </StackPanel>
+                        </Grid>
+                    </telerik:RadTabItem.Content>
+                </telerik:RadTabItem>
+            </telerik:RadTabControl>
+
+        </StackPanel>
+    </Grid>
+</UserControl>
